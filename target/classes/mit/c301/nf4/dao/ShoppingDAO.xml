@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mit.c301.nf4.dao.ShoppingDAO">
+	<!-- 시나몬 --> 
+	<!-- 신상품 등록,인기상품등록 -->
+	<select id ="product" resultType="mit.c301.nf4.vo.ProductVO">
+		select * from product
+	</select>
+	
+	<!-- 상품 상세 리스트  page8-->
+	<select id ="productdetails" resultType="mit.c301.nf4.vo.ProductVO"> 
+		select * from product where gender=#{gender} and p_type=#{p_type} limit 20
+	</select>
+
+	<!-- 상품 랭크 리스트 page9-->
+	<select id ="productrank" resultType="mit.c301.nf4.vo.ProductVO">
+		select * from product where gender=#{gender} order by star desc limit 3
+	</select>
+	
+	<!-- 상품 랭크 리스트 page9-->
+	<select id ="productrank2" resultType="mit.c301.nf4.vo.ProductVO">
+		select * from product where gender=#{gender} limit 8
+	</select>
+	
+	<!-- 회원 정보 -->
+	<select id ="signin" resultType="mit.c301.nf4.vo.SigninVO">
+		select * from signin where id = #{id}
+	</select>
+
+	<!-- 마이페이지 - 주문내역+주문상품 page10 -->
+	<select id ="orderhistory" resultType="mit.c301.nf4.vo.OrderBreakdownVO">
+		select signin_id,order_no,p_name,img_name,p_sale,p_count,pqd
+		from order_info join
+		(select tt1.p_count, tt1.cost, tt1.order_info_order_no, tt1.product_p_no, tt2.* from order_product as tt1 INNER JOIN product as tt2 ON tt1.product_p_no = tt2.p_no)
+		as t1 on order_no = t1.order_info_order_no where signin_id= #{id}
+	</select>
+	
+	<!-- 마이페이지 - 주문내역 - 주문상세정보(주문자,배송정보) page11 -->
+	<select id ="orderinfo" resultType="mit.c301.nf4.vo.Order_infoVO">
+		 select * from order_info where order_no = #{order_no}
+	</select>
+	
+	<!-- 마이페이지 - 주문내역 - 주문상세정보(주문상품정보) page11 -->
+	<select id ="orderdetails" resultType="mit.c301.nf4.vo.OrderdetailsVO">
+		select img_name,p_name,pr_no,p_count,cost,order_info_order_no,product_p_no from order_product join product on product.p_no = order_product.product_p_no where order_info_order_no = #{order_no}
+	</select>
+
+	<!-- 마이페이지 - 배송조회 page12 -->
+	<select id ="shippingcheck" resultType="mit.c301.nf4.vo.ShippingCheckVO">
+		 select order_no,pqd,sale,p_name from product join (select * from order_info join order_product on order_info.order_no = order_product.order_info_order_no)tt1
+    on tt1.product_p_no = product.p_no where signin_id = #{id}
+	</select>
+	
+	<!-- 마이페이지 - 내 가 쓴 글 - 전체문의 page13 -->
+	<select id ="mywritelist" resultType="mit.c301.nf4.vo.All_questionVO">
+		select all_no, all_content, name, pqd from all_question Inner join signin on signin_id = signin.id where signin_id = #{id}
+	</select>
+	
+	<!-- 마이페이지 - 내 가 쓴 글 - 제품문의 page13 -->
+	<select id ="mywritelist2" resultType="mit.c301.nf4.vo.P_questionVO">
+		select p_no, p_content, name, pqd from p_question Inner join signin on signin_id = signin.id where signin_id = #{id}
+	</select>
+	
+	<!-- 마이페이지 - 내 가 쓴 글 - 리뷰 page13 -->
+	<select id ="mywritelist3" resultType="mit.c301.nf4.vo.ReviewVO">
+		select r_no, r_content, name, pqd from review Inner join signin on signin_id = signin.id where signin_id = #{id}
+	</select>
+
+	<!-- 마이페이지 - 관심 상품 - 찜한 상품 page14 -->
+	<select id ="interproduct" resultType="mit.c301.nf4.vo.LikeinfoVO">
+		select no,img_name,p_name,p_sale from p_like join product on p_like.product_p_no = product.p_no where signin_id = #{id}
+	</select>
+	
+	<!-- 마이페이지 - 관심 상품 - 최근 본 상품 page14 -->
+	<select id ="interproduct2" resultType="mit.c301.nf4.vo.RecentVO">
+		select no,img_name,p_name,p_sale from recent join product on recent.product_p_no = product.p_no where signin_id = #{id}
+	</select>
+
+	<!-- 마이페이지 - 개인 정보 관리 page15 -->
+	<select id ="mypage_myinfo" resultType="mit.c301.nf4.vo.SigninVO">
+		select * from signin where id= #{id}
+	</select>
+	
+	<!-- 희진쌤 --> 
+	<select id="recommendView" resultType="mit.c301.nf4.vo.ProductVO">
+		select * from product where gender=#{gender} and p_type=#{p_type} order by rand() limit 1
+	</select>
+	
+	<select id="a_recommendView" resultType="mit.c301.nf4.vo.SigninVO">
+		select id,ran_count from signin where id=#{id}
+	</select>
+	
+	<!-- 나운쌤 -->
+	<!-- 문의게시판 목록 -->
+	<select id="q_list" resultType="mit.c301.nf4.vo.All_questionVO">
+	select all_no, q_title, name, pqd, signin_id from all_question join signin on signin_id = signin.id where signin_id = #{id}; 
+	</select>
+	
+	<!-- 문의게시판 글 쓰기 --> <!-- not null은 무조건 입력(AI제외) -->
+	<insert id="questionWrite">
+		insert into all_question(q_title,all_content,signin_id)
+		values(#{all_questinoVO.q_title}, #{all_questinoVO.all_content}, #{id})
+	</insert>	
+		
+	<!-- 공지게시판 목록 -->
+	<select id="a_list" resultType="mit.c301.nf4.vo.AnnounceVO">
+	select * from announce
+	</select>
+	
+			<!-- 공지게시판 목록 -->
+	<select id="valueNumGT" resultType="_int">
+	select count(*) from product where gender=#{gender} and p_type=#{p_type}
+	</select>
+	
+	<!-- 상품 상세 리스트  page8 (페이지 처리한 것)-->
+	<select id ="pagingProductList" resultType="mit.c301.nf4.vo.ProductVO"> 
+		select * from product where gender=#{gender} and p_type=#{type} limit #{startLimit},#{pageNum}
+	</select>
+</mapper>
+

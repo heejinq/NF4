@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mit.c301.nf4.dao.UJShoppingDAO">
+
+	<select id="recommendView" resultType="mit.c301.nf4.vo.ProductVO">
+		select * 
+		from product 
+		where gender=#{gender} 
+		order by rand() limit 3
+	</select>
+	
+<!-- 희진 성별별 의류타입별 -->
+	<select id="gendertype" resultType="mit.c301.nf4.vo.ProductVO" > 
+		select img_name,p_name,p_sale from product where p_type=#{p_type} and gender=#{gender} <!--상품타입과 성별별로 조회 -->
+	</select>
+
+	
+<!-- 1. 신상품 등록,인기상품등록 -->
+	<select id="product" resultType="mit.c301.nf4.vo.ProductVO">
+		select * from product
+	</select>
+	
+	<select id="productselect" resultType="mit.c301.nf4.vo.ProductVO">
+		select * from product where p_no=#{p_no}	
+	</select>
+	
+	<select id="productSizelist" resultType="mit.c301.nf4.vo.ProductSizeVO">
+		select * from size where type=#{p_type}
+	</select>
+	
+	<select id="reviewlist" resultType="mit.c301.nf4.vo.ReviewVO">
+		select * from review where product_p_no=#{p_no}
+	</select>
+	
+	<select id="p_questionlist" resultType="mit.c301.nf4.vo.P_questionVO">
+		select * from p_question where product_p_no=#{p_no}
+	</select>
+	
+	<update id="p_questionset">
+		UPDATE p_question SET reply = #{reply} WHERE (p_no = #{product_p_no})
+	</update>
+	
+	<select id="selectCart" resultType="mit.c301.nf4.vo.CartmainVO">
+		select cart.no as p_no, p_name, p_sale, p_count, p_sale*p_count as allsale from product join cart on product.p_no = cart.product_p_no where no = #{temp}
+	</select>
+	
+	<select id="cartList" resultType="mit.c301.nf4.vo.CartmainVO">
+		select cart.no as p_no, p_name, p_sale, p_count, p_sale*p_count as allsale from product join cart on product.p_no = cart.product_p_no where signin_id=#{id}
+	</select>
+	
+	<delete id="cartPlusCount">
+		
+	</delete>
+	
+	<delete id="cartDelete">
+		DELETE FROM cart WHERE (`no` = #{p_no})
+	</delete>
+	
+	<select id="signinList" resultType="mit.c301.nf4.vo.SigninVO">
+		select * from signin where id=#{id}
+	</select>
+	
+	<insert id="cartadd">
+		INSERT INTO cart (`signin_id`, `product_p_no`) VALUES (#{id}, #{p_no})
+	</insert>
+	
+	<select id="cartone" resultType="mit.c301.nf4.vo.CartVO">
+		select * from cart where signin_id=#{id} and product_p_no=#{p_no}
+	</select>
+	
+	<insert id="p_likeadd">
+		INSERT INTO p_like (`signin_id`, `product_p_no`) VALUES (#{id}, #{p_no})
+	</insert>
+	
+	<select id="p_likeone" resultType="mit.c301.nf4.vo.CartVO">
+		select * from p_like where signin_id=#{id} and product_p_no=#{p_no}
+	</select>
+	
+	<insert id="writereview">
+		INSERT INTO review (`r_content`, `signin_id`, `product_p_no`) VALUES (#{r_content},#{id},#{p_no})
+	</insert>
+	
+</mapper>
