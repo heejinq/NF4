@@ -21,6 +21,7 @@ public class ShoppingController {
 	
 	private ShoppingService shoppingService; // 의존성주입
 	private String id="b";
+	private String test="될까";
 	
 	public String getId() {
 		return id;
