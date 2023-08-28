@@ -9,34 +9,15 @@ Maven 2.5.1<br>
 Oracle 11<br>
 <BR>
 
-<hr> 
-# 취소<br>
-취소버튼을 누르면 이전페이지(리스트페이지) 로 이동하며 이동했던 페이지는 유지된다.<br>
-     <br>
-<img width="100%" src="https://user-images.githubusercontent.com/110965244/230085229-3b9d401e-6144-4820-a281-3e91e4618536.gif"/><br><br>
-
-
- # 기타<br>
- 구상단계에 만들어둔 ppt와 스프래드시트의 링크를 걸어두어 이동할수있게 해 두었다 (깃허브에서는 비공개..)<br>
- ![image](https://user-images.githubusercontent.com/110965244/230110673-c70e5283-9aad-447d-9a2c-7c12c40b6e9c.png)<br>
-
- <hr>
- 
-# 취소<br>
-취소버튼을 누르면 이전페이지(리스트페이지) 로 이동하며 이동했던 페이지는 유지된다.<br>
-     <br>
-<img width="100%" src="https://github.com/heejinq/NF4/assets/110965244/6fc40bf7-9ed3-44dd-9d4b-b369b20c323c"/><br><br>
-
- 
  # 회원가입 & 로그인 기능
  <hr>
  주소검색 API <br>
-![image](https://github.com/heejinq/NF4/assets/110965244/415ba7a8-a380-4f00-8343-a1fe767dc27d.png) <br>
+<img width="100%" src="https://github.com/heejinq/NF4/assets/110965244/f928184e-4db8-4f30-b90d-e4673c4d4bf2"/><br><br>
  security-context를 이용한 보안 로그인 <br>
  회원가입시 패스워드부분에 자동암호화 진행 <br>
  remember-me 기능으로 로그인 유지 <br>
  <img width="100%" src="https://github.com/heejinq/NF4/assets/110965244/6fc40bf7-9ed3-44dd-9d4b-b369b20c323c.gif"/><br><br>
-
+ 
  # 마이페이지
  <hr>
  로그인 후 마이페이지에 들어가면 주문내역,배송조회,내가쓴글,관심상품,개인정보관리 탭에 각각 들어갈수 있다.
