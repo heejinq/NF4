@@ -12,7 +12,7 @@ Oracle 11<br>
  # 회원가입 & 로그인 기능
  <hr>
  주소검색 API <br>
-<img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/f928184e-4db8-4f30-b90d-e4673c4d4bf2"/><br><br>
+<img width="50%" src="https://github.com/heejinq/NF4/assets/110965244/f928184e-4db8-4f30-b90d-e4673c4d4bf2"/><br><br>
  security-context를 이용한 보안 로그인 <br>
  회원가입시 패스워드부분에 자동암호화 진행 <br>
  remember-me 기능으로 로그인 유지 <br>
@@ -26,7 +26,7 @@ Oracle 11<br>
 # 랜덤코디
 <hr>
 랜덤코디 탭에 들어가서 성별을 선택 후 추천받기 버튼을 누르먄 성별에 따라 추천 상품이 나온다.
-<img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/9a833f20-2f43-4fe6-8903-4a5c9f2754c7"/><br><br>
+<img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/9a833f20-2f43-4fe6-8903-4a5c9f2754c7.gif"/><br><br>
 
 # 랭킹
 <hr>
