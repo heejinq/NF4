@@ -31,11 +31,11 @@ Oracle 11<br>
 # 랭킹
 <hr>
 랭킹 탭에서 여성의류/ 남성의류 선택시 성별에 따라 랭킹순으로 나온다.
- <img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/6c96a812-681c-4301-ab0f-f37ff8b6ef46"/><br><br>
 <img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/6c96a812-681c-4301-ab0f-f37ff8b6ef46.gif"/><br><br>
+
 # 리뷰쓰기
 
-<img width="75%" src=""/><br><br>
+<img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/46e727f0-bf8e-4f73-9ed2-e96084923188"/><br><br>
 
 # 메인페이지
 
