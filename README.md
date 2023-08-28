@@ -32,11 +32,11 @@ Oracle 11<br>
 # 랭킹
 <hr>
 랭킹 탭에서 여성의류/ 남성의류 선택시 성별에 따라 랭킹순으로 나온다.
- <img width="75" src="https://github.com/heejinq/NF4/assets/110965244/8209ab94-24fb-40e9-9fec-278967f6bd7e.gif"/><br><br>
-
+ <img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/6c96a812-681c-4301-ab0f-f37ff8b6ef46"/><br><br>
+<img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/6c96a812-681c-4301-ab0f-f37ff8b6ef46.gif"/><br><br>
 # 리뷰쓰기
 
-<img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/0b5dc67d-9dff-4649-816e-76f31ad69d68.gif"/><br><br>
+<img width="75%" src=""/><br><br>
 
 # 메인페이지
 
@@ -44,15 +44,14 @@ Oracle 11<br>
 
  # 문의하기
 
-<img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/b4af2469-5cca-43ee-9349-ef19f0c5d26f.gif"/><br><br>
-
+<img width="75%" src=""/><br><br>
 # 상세페이지, 장바구니
 
- <img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/642775b0-1758-4ed3-bdda-dfc4bf1545c1.gif"/><br><br>
+<img width="75%" src=""/><br><br>
 
  # 상품보기
 
-<img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/686078e3-9660-4f28-9e1b-67ddde610f64.gif"/><br><br>
+<img width="75%" src=""/><br><br>
 
 # 장바구니
 
