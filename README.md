@@ -11,7 +11,8 @@ Oracle 11<br>
  # 회원가입 & 로그인 기능
  <hr>
  주소검색 API 
- ![image width="100%"](https://github.com/heejinq/NF4/assets/110965244/3534c345-2860-4049-838d-fcf3a92100f0)
+![image](https://github.com/heejinq/NF4/assets/110965244/415ba7a8-a380-4f00-8343-a1fe767dc27d)
+
 
  security-context를 이용한 보안 로그인
  회원가입시 패스워드부분에 자동암호화 진행
