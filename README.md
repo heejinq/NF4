@@ -21,7 +21,7 @@ Oracle 11<br>
  # 마이페이지
  <hr>
  로그인 후 마이페이지에 들어가면 주문내역,배송조회,내가쓴글,관심상품,개인정보관리 탭에 각각 들어갈수 있다.
-  <img width="75%" src=""/><br><br>
+  <img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/4f4187e1-0b1b-49a8-b202-afe32cf0883a"/><br><br>
 
 # 랜덤코디
 <hr>
@@ -39,7 +39,7 @@ Oracle 11<br>
 
 # 메인페이지
 
- <img width="75%" src=""/><br><br>
+ <img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/a89888e3-63c9-476c-9e62-85a495ca3214"/><br><br>
 
  # 문의하기
 
