@@ -53,8 +53,8 @@ Oracle 11<br>
 <img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/118fe2fc-983c-4d89-bbaf-299793305d7f"/><br><br>
 
 # 장바구니
-
- <img width="75%" src=""/><br><br>
+장바구니 아이콘 클릭시 장바구니로 이동하며 그 안에서 담아둔 아이템 삭제가 가능하고 총 금액 확인이 가능하
+ <img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/4527045e-cccc-4f77-a23a-5717669ff23c"/><br><br>
 
 
 
