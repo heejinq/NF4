@@ -11,11 +11,11 @@ Oracle 11<br>
  # 회원가입 & 로그인 기능
  <hr>
  주소검색 API <br>
-![image](https://github.com/heejinq/NF4/assets/110965244/415ba7a8-a380-4f00-8343-a1fe767dc27d) <br>
+![image](https://github.com/heejinq/NF4/assets/110965244/415ba7a8-a380-4f00-8343-a1fe767dc27d.png) <br>
  security-context를 이용한 보안 로그인 <br>
  회원가입시 패스워드부분에 자동암호화 진행 <br>
  remember-me 기능으로 로그인 유지 <br>
- <img width="100%" src="https://github.com/heejinq/NF4/assets/110965244/6fc40bf7-9ed3-44dd-9d4b-b369b20c323c"/><br><br>
+ <img width="100%" src="https://github.com/heejinq/NF4/assets/110965244/6fc40bf7-9ed3-44dd-9d4b-b369b20c323c.gif"/><br><br>
 
  # 마이페이지
  <hr>
