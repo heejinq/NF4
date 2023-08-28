@@ -21,6 +21,13 @@ Oracle 11<br>
  ![image](https://user-images.githubusercontent.com/110965244/230110673-c70e5283-9aad-447d-9a2c-7c12c40b6e9c.png)<br>
 
  <hr>
+ 
+# 취소<br>
+취소버튼을 누르면 이전페이지(리스트페이지) 로 이동하며 이동했던 페이지는 유지된다.<br>
+     <br>
+<img width="100%" src="https://github.com/heejinq/NF4/assets/110965244/6fc40bf7-9ed3-44dd-9d4b-b369b20c323c"/><br><br>
+
+ 
  # 회원가입 & 로그인 기능
  <hr>
  주소검색 API <br>
