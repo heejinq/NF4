@@ -16,7 +16,7 @@ Oracle 11<br>
  security-context를 이용한 보안 로그인 <br>
  회원가입시 패스워드부분에 자동암호화 진행 <br>
  remember-me 기능으로 로그인 유지 <br>
- <img width="75%" src=""/><br><br>
+ <img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/ee70cd1b-f73d-4a56-a28d-d1ef1967a8fc"/><br><br>
  
  # 마이페이지
  <hr>
