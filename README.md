@@ -15,45 +15,45 @@ Oracle 11<br>
 <img width="45%" src="https://github.com/heejinq/NF4/assets/110965244/f928184e-4db8-4f30-b90d-e4673c4d4bf2"/><br><br>
  security-context를 이용한 보안 로그인 <br>
  회원가입시 패스워드부분에 자동암호화 진행 <br>
- remember-me 기능으로 로그인 유지 <br>
+ remember-me 기능으로 로그인 유지 <br><br>
  <img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/ee70cd1b-f73d-4a56-a28d-d1ef1967a8fc"/><br><br>
  
  # 마이페이지
  <hr>
- 로그인 후 마이페이지에 들어가면 주문내역,배송조회,내가쓴글,관심상품,개인정보관리 탭에 각각 들어갈수 있다.
+ 로그인 후 마이페이지에 들어가면 주문내역,배송조회,내가쓴글,관심상품,개인정보관리 탭에 각각 들어갈수 있다.<br><br>
   <img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/4f4187e1-0b1b-49a8-b202-afe32cf0883a"/><br><br>
 
 # 랜덤코디
 <hr>
-랜덤코디 탭에 들어가서 성별을 선택 후 추천받기 버튼을 누르먄 성별에 따라 추천 상품이 나온다.
+랜덤코디 탭에 들어가서 성별을 선택 후 추천받기 버튼을 누르먄 성별에 따라 추천 상품이 나온다.<br><br>
 <img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/9a833f20-2f43-4fe6-8903-4a5c9f2754c7.gif"/><br><br>
 
 # 랭킹
 <hr>
-랭킹 탭에서 여성의류/ 남성의류 선택시 성별에 따라 랭킹순으로 나온다.
+랭킹 탭에서 여성의류/ 남성의류 선택시 성별에 따라 랭킹순으로 나온다.<br><br>
 <img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/6c96a812-681c-4301-ab0f-f37ff8b6ef46.gif"/><br><br>
 
 # 리뷰쓰기
-
+상품 리뷰를 입력하면 즉시 리뷰가 반영된다 <br><br>
 <img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/46e727f0-bf8e-4f73-9ed2-e96084923188"/><br><br>
 
 # 메인페이지
-
+메인페이지에 있는 사진은 좌우로 이동 가능하며 아래에는 상품들을 보여주게 설계했다<br><br>
  <img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/a89888e3-63c9-476c-9e62-85a495ca3214"/><br><br>
 
  # 문의하기
-
+문의 게시판에서는 제목과 내용을 입력해서 문의사항을 올릴 수 있다.<br><br>
 <img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/6809e002-2947-4b93-ae68-9f31f21acbc6"/><br><br>
 # 상세페이지, 장바구니
-
+상품을 클릭하면 상세 페이지로 들어간다.<br><br>
 <img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/867fb260-7a5f-46cb-bbed-d0c878dc3b5d"/><br><br>
 
  # 상품보기
-
+성별별 카테고리별로 나누어져 있어 선택하면 해당하는 카테고리로 이동하게 된다.<br><br>
 <img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/118fe2fc-983c-4d89-bbaf-299793305d7f"/><br><br>
 
 # 장바구니
-장바구니 아이콘 클릭시 장바구니로 이동하며 그 안에서 담아둔 아이템 삭제가 가능하고 총 금액 확인이 가능하
+장바구니 아이콘 클릭시 장바구니로 이동하며 그 안에서 담아둔 아이템 삭제가 가능하고 총 금액 확인이 가능하다 <br><br>
  <img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/4527045e-cccc-4f77-a23a-5717669ff23c"/><br><br>
 
 
