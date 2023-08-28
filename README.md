@@ -12,7 +12,8 @@ Oracle 11<br>
  # 회원가입 & 로그인 기능
  <hr>
  주소검색 API <br>
-<img width="30%" src="https://github.com/heejinq/NF4/assets/110965244/f928184e-4db8-4f30-b90d-e4673c4d4bf2"/><br><br>
+<img width="20
+%" src="https://github.com/heejinq/NF4/assets/110965244/f928184e-4db8-4f30-b90d-e4673c4d4bf2"/><br><br>
  security-context를 이용한 보안 로그인 <br>
  회원가입시 패스워드부분에 자동암호화 진행 <br>
  remember-me 기능으로 로그인 유지 <br>
@@ -31,11 +32,11 @@ Oracle 11<br>
 # 랭킹
 <hr>
 랭킹 탭에서 여성의류/ 남성의류 선택시 성별에 따라 랭킹순으로 나온다.
- <img width="75" src="https://github.com/heejinq/NF4/assets/110965244/9e1effcf-26b9-4842-b358-7673a6e2f25c"/><br><br>
+ <img width="75" src="https://github.com/heejinq/NF4/assets/110965244/8209ab94-24fb-40e9-9fec-278967f6bd7e.gif"/><br><br>
 
 # 리뷰쓰기
 
-<img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/860dd56a-7366-40c8-b874-59878fcf5833"/><br><br>
+<img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/0b5dc67d-9dff-4649-816e-76f31ad69d68.gif"/><br><br>
 
 # 메인페이지
 
@@ -43,20 +44,20 @@ Oracle 11<br>
 
  # 문의하기
 
-<img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/8ae63683-4a02-4396-adbc-82d3387426f0"/><br><br>
+<img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/b4af2469-5cca-43ee-9349-ef19f0c5d26f.gif"/><br><br>
 
 # 상세페이지, 장바구니
 
- <img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/af23e04a-ce50-4bd8-81f5-2cdcca757d34"/><br><br>
+ <img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/642775b0-1758-4ed3-bdda-dfc4bf1545c1.gif"/><br><br>
 
  # 상품보기
 
-<img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/7eb5de2b-2e09-40ff-920f-88533968b45a"/><br><br>
+<img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/686078e3-9660-4f28-9e1b-67ddde610f64.gif"/><br><br>
 
 # 장바구니
 
- <img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/29dc5fce-43f2-48f9-9cec-d28d1d853818"/><br><br>
+ <img width="75%" src=""/><br><br>
 
-<img width="75%" src="https://github.com/heejinq/NF4/assets/110965244/c8602a8a-8ae5-4fc2-a1f1-372711c95b9e"/><br><br>
+
 
 
