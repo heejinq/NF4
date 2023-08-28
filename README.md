@@ -8,6 +8,19 @@ Spring 5.0.7<br>
 Maven 2.5.1<br>
 Oracle 11<br>
 <BR>
+
+<hr>
+# 취소<br>
+취소버튼을 누르면 이전페이지(리스트페이지) 로 이동하며 이동했던 페이지는 유지된다.<br>
+     <br>
+<img width="100%" src="https://user-images.githubusercontent.com/110965244/230085229-3b9d401e-6144-4820-a281-3e91e4618536.gif"/><br><br>
+
+
+ # 기타<br>
+ 구상단계에 만들어둔 ppt와 스프래드시트의 링크를 걸어두어 이동할수있게 해 두었다 (깃허브에서는 비공개..)<br>
+ ![image](https://user-images.githubusercontent.com/110965244/230110673-c70e5283-9aad-447d-9a2c-7c12c40b6e9c.png)<br>
+
+ <hr>
  # 회원가입 & 로그인 기능
  <hr>
  주소검색 API <br>
