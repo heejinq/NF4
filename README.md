@@ -15,6 +15,8 @@ Oracle 11<br>
 |여기에 이름|여기에 직책|여기에 담당|
 |<span style="color:green">**여기에 강조**</span>|여기에 직책|여기에 담당|
 |여기에 이름|여기에 직책|여기에 담당|
+|테스트1|<span style="color:red">**강조3**</span>|테스트3|
+|테스트1|<span style="color:red">강조3</span>|테스트3|
 
 ﻿
 # 개발 인원 및 역할
